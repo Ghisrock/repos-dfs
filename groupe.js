@@ -1,8 +1,11 @@
 let recetteTotale = 0;
-let Billets1500 = 0;;
-let Billets2500 = 0;
-let Recetteavecreduction = 0;
-for (let age =11; age <= 20; age ++) {
+let age = 11;
+let billets1500 = 0;
+let billets2500 = 0;
+let recetteAvecReduction = 0;
+
+do {
+     
 let prix;
 if (age <16 ) {
  prix = 1500;
